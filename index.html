@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia de Energia no Chuveiro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Imagem centralizada acima do título -->
+        <img src="simbolo.png.png" alt="" class="imagem-titulo">
+        
+        <h1>Calculadora de Economia de Energia no Chuveiro</h1>
+        <p>Informe os valores abaixo para calcular a economia de energia entre os modos de chuveiro:</p>
+        
+        <label for="potenciaInverno">Potência no modo Inverno (em W):</label>
+        <input type="number" id="potenciaInverno" value="6000">
+        <br><br>
+        
+        <label for="potenciaVerao">Potência no modo Verão (em W):</label>
+        <input type="number" id="potenciaVerao" value="3600">
+        <br><br>
+        
+        <label for="tempoInverno">Tempo de banho no modo Inverno (em minutos):</label>
+        <input type="number" id="tempoInverno" value="15">
+        <br><br>
+        
+        <label for="tempoVerao">Tempo de banho no modo Verão (em minutos):</label>
+        <input type="number" id="tempoVerao" value="5">
+        <br><br>
+        
+        <button class="calculate" onclick="calcularEconomia()">Calcular Economia</button>
+        <button class="reset" onclick="zerarCampos()">Zerar</button>
+        
+        <h2>Economia por banho (em kWh): <span id="resultado">0.0</span></h2>
+    </div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </body>
+    </html>
+
+
+

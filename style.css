@@ -1,0 +1,134 @@
+/* Resetando alguns estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a cor de fundo geral e a imagem de fundo */
+body {
+    background-image: url('fundo.jpeg'); /* Substitua 'fundo.jpg' pelo caminho da sua imagem ou GIF */
+    background-size: cover;  /* Faz a imagem de fundo cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-attachment: fixed;  /* Deixa o fundo fixo durante o rolar da página */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Estilo do container */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);  /* Fundo branco semi-transparente */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+/* Estilo da imagem acima do título */
+.imagem-titulo {
+    width: 80px; /* Define o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço entre a imagem e o título */
+}
+
+/* Título da calculadora */
+h1 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Parágrafo explicativo */
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Estilo dos campos de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilo do botão de calcular */
+button.calculate {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.calculate:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do botão de zerar */
+button.reset {
+    width: 100%;
+    padding: 12px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button.reset:hover {
+    background-color: #e53935;
+}
+
+/* Resultado da economia */
+h2 {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/* Estilo para o resultado */
+#resultado {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
